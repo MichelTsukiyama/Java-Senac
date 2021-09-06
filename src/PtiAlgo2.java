@@ -52,12 +52,9 @@ public class PtiAlgo2 {
             }
         }
         
-        boolean resultado;
         if(contador == elemento.length - 1){
-            resultado = true;
-        } else {
-            resultado = false;
-        }
-        return resultado;
+            return true;
+        } else 
+            return false;
     }       
 }
